@@ -3,6 +3,8 @@ const RUNTIME = 'runtime';
 
 const PRECACHE_URLS = [
   'index.html',
+  'secondPage.html',
+  'earth.png',
   './', // alias for index.html
   'css/style.css',
   'js/main.js',
