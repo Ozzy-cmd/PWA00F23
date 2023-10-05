@@ -23,7 +23,7 @@ const PRECACHE_URLS = [
 
 self.addEventListener('install', function(event)){
   event.waitUntill(
-    caches.open(PRECACHE).then(cache){
+    caches.open(PRECACHE).then(function(cache)){
     return cache.addAll(PRECACHE_URLS);
     })
   );
